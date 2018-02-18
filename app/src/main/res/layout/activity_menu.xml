@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B0E0E6"
+    tools:context="com.example.android.ayusaraswatioktaviani_1202154290_modul2.Menu">
+
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="102dp"
+        android:layout_height="81dp"
+        app:srcCompat="@drawable/spaghetti"
+        android:onClick="gambarspaghetti"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="102dp"
+        android:layout_height="80dp"
+        android:layout_alignEnd="@+id/imageView5"
+        android:layout_alignRight="@+id/imageView5"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/spaghetti1"
+        android:onClick="gambarspaghetti"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="106dp"
+        android:layout_height="85dp"
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_alignStart="@+id/imageView6"
+        android:layout_below="@+id/imageView6"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/milkshake2"
+        android:onClick="gambarspaghetti2"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="106dp"
+        android:layout_height="98dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp"
+        app:srcCompat="@drawable/milkshake"
+        android:onClick="gambarmilkshake"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="102dp"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginTop="14dp"
+        android:onClick="gambarmilkshake2"
+        app:srcCompat="@drawable/spaghetti2" />
+
+    <TextView
+        android:id="@+id/hargasp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sp2"
+        android:layout_alignStart="@+id/sp2"
+        android:layout_below="@+id/sp2"
+        android:layout_marginTop="11dp"
+        android:text="Harga : Rp.25.000" />
+
+    <TextView
+        android:id="@+id/sp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/sp1"
+        android:layout_alignRight="@+id/sp1"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_marginTop="22dp"
+        android:text="Spaghetti DEF" />
+
+    <TextView
+        android:id="@+id/sp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/hargasp1"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/hargasp1"
+        android:layout_marginTop="15dp"
+        android:text="Spaghetti ABC" />
+
+    <TextView
+        android:id="@+id/hargasp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sp2"
+        android:layout_marginBottom="21dp"
+        android:layout_toEndOf="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView3"
+        android:text="Harga : Rp.40.000" />
+
+    <TextView
+        android:id="@+id/sp3"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_above="@+id/hargasp3"
+        android:layout_alignLeft="@+id/hargasp2"
+        android:layout_alignStart="@+id/hargasp2"
+        android:layout_marginBottom="19dp"
+        android:text="Spaghetti GHI" />
+
+    <TextView
+        android:id="@+id/hargasp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        android:text="Harga : Rp.45.000" />
+
+    <TextView
+        android:id="@+id/ms1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_marginTop="19dp"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        android:text="Milksake DEF" />
+
+    <TextView
+        android:id="@+id/hargams1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ms1"
+        android:layout_marginTop="13dp"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        android:text="Harga : Rp.20.000" />
+
+    <TextView
+        android:id="@+id/ms2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_marginTop="14dp"
+        android:layout_toEndOf="@+id/imageView6"
+        android:layout_toRightOf="@+id/imageView6"
+        android:text="Milkshake ABC" />
+
+    <TextView
+        android:id="@+id/hargams2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ms2"
+        android:layout_marginTop="13dp"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        android:text="Harga : Rp.20.000" />
+</RelativeLayout>
